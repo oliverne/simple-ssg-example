@@ -9,6 +9,11 @@ Static Website를 만들어보자.
 1. JSON 데이터를 템플릿 파일과 결합하여 HTML 파일로 저장한다.
 1. 웹서버에 배포하면 끝
 
+## URL
+
+- https://oliverne.github.io/simple-ssg-example/en-us/index.html
+- https://oliverne.github.io/simple-ssg-example/ko-kr/index.html
+
 ## 준비물
 
 - Node.js v18 이상
