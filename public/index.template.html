@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{title}}</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+  </head>
+  <body>
+    <section class="hero is-link">
+      <div
+        class="hero-body is-flex is-justify-content-center is-align-items-center"
+      >
+        <figure class="image is-96x96">
+          <img src="images/cat.png" />
+        </figure>
+        <div class="pl-4">
+          <p class="title">{{title}}</p>
+          <p class="subtitle">{{description}} by {{name}}</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="section">
+        <div class="columns">
+          <!-- 반복 -->
+          {{#projects}}
+          <div class="column is-half">
+            <div class="card">
+              <div class="card-content">
+                <div class="media-content">
+                  <p class="title is-4">{{name}}</p>
+                </div>
+                <div class="content">
+                  <a href="{{url}}" target="_blank">{{url}}</a>
+                  <p>{{createdAt}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{/projects}}
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <a href="../ko-kr/index.html">Korean</a> /
+          <a href="../en-us/index.html">English</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "simple-ssg-example",
+  "version": "1.0.0",
+  "description": "포트폴리오 웹사이트 샘플",
+  "type": "module",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node src/main.js"
+  },
+  "keywords": [],
+  "author": "Yun Cheolhun <oliverne@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "4.2.0"
+  }
+}

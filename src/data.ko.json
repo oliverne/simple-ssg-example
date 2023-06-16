@@ -1,0 +1,27 @@
+{
+  "title": "포트폴리오 데모",
+  "description": "그냥 심심풀이. 스터디 목적...",
+  "name": "올리벙",
+  "projects": [
+    {
+      "name": "튜토리얼 Todo",
+      "url": "https://github.com/oliverne/tut-todo",
+      "createdAt": "2020"
+    },
+    {
+      "name": "SMS 인증 UI",
+      "url": "https://github.com/oliverne/sms-auth-ui",
+      "createdAt": "2020"
+    },
+    {
+      "name": "손쉬운 ECDSA",
+      "url": "https://github.com/oliverne/easy-ecdsa",
+      "createdAt": "2020"
+    },
+    {
+      "name": "또 하나의 Vue Todo",
+      "url": "https://github.com/oliverne/yet-another-vue-todo",
+      "createdAt": "2019"
+    }
+  ]
+}

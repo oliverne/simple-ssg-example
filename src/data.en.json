@@ -1,0 +1,27 @@
+{
+  "title": "My Portfolio Demo",
+  "description": "Maybe for learning",
+  "name": "oliverne",
+  "projects": [
+    {
+      "name": "Tut Todo",
+      "url": "https://github.com/oliverne/tut-todo",
+      "createdAt": "2020"
+    },
+    {
+      "name": "SMS Auth UI",
+      "url": "https://github.com/oliverne/sms-auth-ui",
+      "createdAt": "2020"
+    },
+    {
+      "name": "Easy ECDSA",
+      "url": "https://github.com/oliverne/easy-ecdsa",
+      "createdAt": "2020"
+    },
+    {
+      "name": "Yet Another Vue Todo",
+      "url": "https://github.com/oliverne/yet-another-vue-todo",
+      "createdAt": "2019"
+    }
+  ]
+}
