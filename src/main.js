@@ -49,6 +49,8 @@ for (const item of settings) {
 
   // 결과물을 파일로 저장
   fs.writeFileSync(getPath(DIST, item.result), rendered);
+
+  // public 폴더의 언어별 폴더를 dist 폴더에 복사
   fs.cpSync(getPath(PUBLIC, item.lang), getPath(DIST, item.lang), {
     recursive: true,
   });

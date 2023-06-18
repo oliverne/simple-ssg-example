@@ -38,4 +38,3 @@ Static Website를 만들어보자.
 ### Template
 
 [JS 템플릿의 간단한 원리](https://medium.com/wdstack/understanding-javascript-micro-templating-f37a37b3b40e)를 봐봤자 이해가 잘안되면 그냥 수많은 라이브러리가 있으니 [Mustache](https://github.com/janl/mustache.js/)를 사용해보자.
-`npm install mustache`로 설치하자.
